@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>Registration Form </header>
-        <form>
-            <div class="form">
-                <div class="personal-details">
-                    <span class="title">Personal details</span>
-                    <div class="fields">
-                        <div class="input-field">
-                            <label>Full Name</label>
-                            <input type="text" placeholder="Enter You Full Name" required>
-                        </div>
-                        <div class="input-field">
-                            <label>Date Of Birth</label>
-                            <input type="date" placeholder="Enter You Date of Birth" required>
-                        </div>
-                        <div class="input-field">
-                            <label>Email</label>
-                            <input type="email" placeholder="Enter You email" required>
-                        </div>
-                    </div>
-                </div>
+      <header>Registration Form</header>
+      <form>
+        <div class="form">
+          <div class="details personal">
+            <span class="title">Personal details</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter You Full Name" required />
+              </div>
+              <div class="input-field">
+                <label>Date Of Birth</label>
+                <input type="date" placeholder="" required/>
+              </div>
+              <div class="input-field">
+                <label>Email</label>
+                <input type="email" placeholder="Enter You email" required />
+              </div>
+              <div class="input-field">
+                <label>Mobile Number</label>
+                <input type="number" placeholder="Enter You Number" required />
+              </div>
+              <div class="input-field">
+                <label>Gender</label>
+                <input type="text" placeholder="Enter You Gender" required />
+              </div>
+              <div class="input-field">
+                <label>Occupation</label>
+                <input type="text" placeholder="Enter You occupation" required />
+              </div>
             </div>
-        </form>
+          </div>
+          
+          <div class="details ID">
+            <span class="title">Identity  details</span>
+            <div class="fields">
+              <div class="input-field">
+                <label>ID Type</label>
+                <input type="text" placeholder="Enter You type" required />
+              </div>
+              <div class="input-field">
+                <label>ID Number</label>
+                <input type="number" placeholder="Enter You ID Number" required/>
+              </div>
+              <div class="input-field">
+                <label>Issued Autority</label>
+                <input type="text" placeholder="Enter your Authority" required />
+              </div>
+              <div class="input-field">
+                <label>Issued State</label>
+                <input type="text" placeholder="Enter You Issued Sate" required />
+              </div>
+              <div class="input-field">
+                <label>Issued Date</label>
+                <input type="date" placeholder="Enter You issued date" required />
+              </div>
+              <div class="input-field">
+                <label>Expiry Date</label>
+                <input type="date" placeholder="Enter You Expiry Date" required />
+              </div>
+            </div>
+            <button class="nextBtn">Next</button>
+          </div>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
