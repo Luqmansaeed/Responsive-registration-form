@@ -44,12 +44,20 @@ body{
     min-height: 490px;
     background-color: #fff;
 }
-.container form .details{
+.container form .form{
+    position: absolute;
+    background-color: #fff;
+}
+.container form .form .second{
+    pointer-events: none;
+    opacity: 0;
+}
+/* .container form .details{
     margin-top: 30px;
 }
 .container form .details.ID{
     margin-top: 20px;
-}
+} */
 .container form .title{
     display: block;
     margin-bottom: 8px;
@@ -96,7 +104,7 @@ form .fields .input-field{
 .input-field input[type="text"]:valid{
     color: #333;
 }
-.container form button{
+.container form button, .backBtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +119,18 @@ form .fields .input-field{
     background-color: #4070f4;
     cursor: pointer;
     transition: all 0.3s linear;
+} 
+.container form button, .container form button .backBtn{
+    font-size: 14px;
+    font-weight: 400;
 }
 form button:hover{
     background-color: #20ab8b;
+}
+form .buttons{
+    display: flex;
+    align-items: center;
+}
+form .buttons button{
+    margin-right: 14px;
 }
